@@ -11,7 +11,7 @@ import hello.core.member.MemoryMemberRepository;
 public class OrderServiceImpl implements OrderService{
 
     private final MemberRepository memberRepository;
-    private  DiscountPolicy discountPolicy;
+    private final  DiscountPolicy discountPolicy;
     //    private final DiscountPolicy discountPolicy = new FIxDiscountPolicy();
     //    private final DiscountPolicy discountPolicy = new RateDiscountPolicy();
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
